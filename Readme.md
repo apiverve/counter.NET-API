@@ -82,7 +82,7 @@ var response = apiClient.Execute(queryOptions);
 if(response.error != null) {
 	Console.WriteLine(response.error);
 } else {
-    var jsonResponse = JsonConvert.SerializeObject(response.data, Newtonsoft.Json.Formatting.Indented);
+    var jsonResponse = JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented);
     Console.WriteLine(jsonResponse);
 }
 ```
@@ -97,7 +97,7 @@ if(response.error != null) {
     "created": "2024-04-26 22:09:46",
     "id": "test_counter",
     "lastAction": "get",
-    "lastRead": "2024-05-13 03:31:42",
+    "lastRead": "2024-05-15 21:49:48",
     "lastUpdated": "2024-04-26 22:09:46",
     "numberOfDigits": 1,
     "ordinal": "zeroth",
