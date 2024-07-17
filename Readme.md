@@ -1,13 +1,13 @@
-Counter API
+Cloud Counter API
 ============
 
-Counter is a simple tool for incrementing, decrementing, and resetting a counter. It returns the current value of the counter.
+Counter is a simple tool for incrementing, decrementing, and resetting a cloud counter. It returns the current value of the counter.
 
 ![Build Status](https://img.shields.io/badge/build-passing-green)
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a .NET Wrapper for the [Counter API](https://apiverve.com/marketplace/api/counter)
+This is a .NET Wrapper for the [Cloud Counter API](https://apiverve.com/marketplace/api/counter)
 
 ---
 
@@ -15,17 +15,17 @@ This is a .NET Wrapper for the [Counter API](https://apiverve.com/marketplace/ap
 
 Using the .NET CLI:
 ```
-dotnet add package APIVerve.API.Counter
+dotnet add package APIVerve.API.CloudCounter
 ```
 
 Using the Package Manager:
 ```
-nuget install APIVerve.API.Counter
+nuget install APIVerve.API.CloudCounter
 ```
 
 Using the Package Manager Console:
 ```
-Install-Package APIVerve.API.Counter
+Install-Package APIVerve.API.CloudCounter
 ```
 
 From within Visual Studio:
@@ -33,8 +33,8 @@ From within Visual Studio:
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
 3. Click on Manage NuGet Packages...
-4. Click on the Browse tab and search for "APIVerve.API.Counter".
-5. Click on the APIVerve.API.Counter package, select the appropriate version in the right-tab and click Install.
+4. Click on the Browse tab and search for "APIVerve.API.CloudCounter".
+5. Click on the APIVerve.API.CloudCounter package, select the appropriate version in the right-tab and click Install.
 
 
 ---
@@ -48,17 +48,17 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The Counter API documentation is found here: [https://docs.apiverve.com/api/counter](https://docs.apiverve.com/api/counter).  
+The Cloud Counter API documentation is found here: [https://docs.apiverve.com/api/counter](https://docs.apiverve.com/api/counter).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
 ###### Authentication
-Counter API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
+Cloud Counter API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
 
 ```
 // Create an instance of the API client
-var apiClient = new CounterAPIClient("[YOUR_API_KEY]", true);
+var apiClient = new CloudCounterAPIClient("[YOUR_API_KEY]", true);
 ```
 
 ---
@@ -97,7 +97,7 @@ if(response.error != null) {
     "created": "2024-04-26 22:09:46",
     "id": "test_counter",
     "lastAction": "get",
-    "lastRead": "2024-05-15 21:49:48",
+    "lastRead": "2024-07-17 15:17:02",
     "lastUpdated": "2024-04-26 22:09:46",
     "numberOfDigits": 1,
     "ordinal": "zeroth",
