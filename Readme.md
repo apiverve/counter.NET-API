@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new counterQueryOptions {
+var queryOptions = new CloudCounterQueryOptions {
   id = "test_counter"
 };
 ```
@@ -97,13 +97,14 @@ if(response.error != null) {
     "created": "2024-04-26 22:09:46",
     "id": "test_counter",
     "lastAction": "get",
-    "lastRead": "2024-07-17 15:17:02",
+    "lastRead": "2024-08-14 06:14:28",
     "lastUpdated": "2024-04-26 22:09:46",
     "numberOfDigits": 1,
     "ordinal": "zeroth",
     "value": 0,
     "words": "zero"
-  }
+  },
+  "code": 200
 }
 ```
 
